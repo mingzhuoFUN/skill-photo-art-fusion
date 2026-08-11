@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="实景共绘：融合摄影真实与可见艺术创作的 Codex 中文照片二次创作 Skill。">
+  <title>实景共绘 · Photo Art Fusion</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17211d;
+      --muted: #5d6b64;
+      --paper: #f4f0e8;
+      --card: rgba(255, 255, 255, .72);
+      --green: #1f6a50;
+      --lime: #b8d984;
+      --line: rgba(23, 33, 29, .14);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 80% 0%, rgba(184, 217, 132, .5), transparent 32rem),
+        radial-gradient(circle at 0% 70%, rgba(83, 151, 128, .22), transparent 28rem),
+        var(--paper);
+      font: 16px/1.7 system-ui, -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    }
+    a { color: inherit; }
+    .wrap { width: min(1120px, calc(100% - 40px)); margin: auto; }
+    header { display: flex; justify-content: space-between; align-items: center; padding: 24px 0; }
+    .brand { font-weight: 800; letter-spacing: .04em; }
+    .github { color: var(--muted); text-decoration: none; }
+    .hero { min-height: 66vh; display: grid; align-items: center; padding: 72px 0 96px; }
+    .eyebrow { color: var(--green); font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+    h1 { max-width: 900px; margin: 14px 0 20px; font-size: clamp(3.2rem, 9vw, 7.6rem); line-height: .98; letter-spacing: -.06em; }
+    .lead { max-width: 760px; color: var(--muted); font-size: clamp(1.1rem, 2vw, 1.35rem); }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 34px; }
+    .button { display: inline-block; padding: 12px 18px; border: 1px solid var(--ink); border-radius: 999px; text-decoration: none; font-weight: 700; }
+    .button.primary { color: white; background: var(--ink); }
+    section { padding: 72px 0; border-top: 1px solid var(--line); }
+    h2 { margin: 0 0 26px; font-size: clamp(2rem, 4vw, 3.5rem); letter-spacing: -.04em; }
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .card { min-height: 210px; padding: 24px; border: 1px solid var(--line); border-radius: 24px; background: var(--card); backdrop-filter: blur(12px); }
+    .card span { display: block; color: var(--green); font-weight: 800; }
+    .card h3 { margin: 44px 0 8px; font-size: 1.3rem; }
+    .card p { margin: 0; color: var(--muted); }
+    pre { overflow-x: auto; padding: 22px; color: #eef7f0; background: #17211d; border-radius: 20px; }
+    footer { padding: 40px 0 64px; color: var(--muted); border-top: 1px solid var(--line); }
+    @media (max-width: 760px) {
+      .grid { grid-template-columns: 1fr; }
+      .hero { padding-top: 42px; }
+      h1 { font-size: clamp(3rem, 17vw, 5rem); }
+    }
+  </style>
+</head>
+<body>
+  <header class="wrap">
+    <div class="brand">实景共绘</div>
+    <a class="github" href="https://github.com/mingzhuoFUN/skill-photo-art-fusion">GitHub ↗</a>
+  </header>
+
+  <main>
+    <div class="hero wrap">
+      <div>
+        <div class="eyebrow">Codex Skill · Photo Art Fusion</div>
+        <h1>让真实照片与艺术创作，共同完成一幅作品。</h1>
+        <p class="lead">保留照片身份，修复审美问题，以结构和语义选择主创区域，再加入一眼可见、来源清晰、不过度堆砌的艺术表达。</p>
+        <div class="actions">
+          <a class="button primary" href="https://github.com/mingzhuoFUN/skill-photo-art-fusion/blob/main/photo-art-fusion-zh/SKILL.md">阅读完整 Skill</a>
+          <a class="button" href="https://github.com/mingzhuoFUN/skill-photo-art-fusion#readme">查看中文说明</a>
+        </div>
+      </div>
+    </div>
+
+    <section>
+      <div class="wrap">
+        <h2>不只是滤镜，而是区域化创作决策。</h2>
+        <div class="grid">
+          <article class="card"><span>01</span><h3>识别照片身份</h3><p>按主体与叙事作用分配保护权重，不因人物存在而自动锁死画面。</p></article>
+          <article class="card"><span>02</span><h3>建立创作层级</h3><p>主创区清晰表达艺术语言，承接区低强度呼应，安静区保留视觉呼吸。</p></article>
+          <article class="card"><span>03</span><h3>生成同源新元素</h3><p>从原图形态、色彩、材质、光线与意象出发，让“虚”的部分明显但有据可循。</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <h2>安装后直接调用</h2>
+        <pre><code>使用 $photo-art-fusion-zh 对这张照片进行虚实结合的艺术二次创作。</code></pre>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="wrap">Photo Art Fusion · 持续通过真实照片测试与迭代</div></footer>
+</body>
+</html>

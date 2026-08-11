@@ -1,0 +1,8 @@
+interface:
+  display_name: "实景共绘"
+  short_description: "融合摄影真实与可见艺术创作的照片二次创作 Skill"
+  default_prompt: "使用 $photo-art-fusion-zh 对这张照片进行虚实结合的艺术二次创作。"
+
+policy:
+  allow_implicit_invocation: true
+
