@@ -29,6 +29,8 @@ skill-photo-art-fusion/
 
 ## 安装
 
+
+最简单的使用方式是复制github链接给你的AI 例如codex Claude code 等让其读取并应用这个skill
 ### 方法一：克隆后复制
 
 ```powershell
