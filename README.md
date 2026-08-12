@@ -20,14 +20,13 @@
 ```text
 skill-photo-art-fusion/
 ├── README.md                         # 中文项目介绍
-├── index.html                        # GitHub Pages 首页
 └── photo-art-fusion-zh/              # 可安装的完整 Skill 包
     ├── SKILL.md                      # 触发描述与核心工作流
     └── agents/
         └── openai.yaml               # Codex UI 展示与默认提示词
 ```
 
-`README.md` 和网站文件位于 Skill 包之外，不会在 Skill 触发时占用运行上下文。
+`README.md` 位于 Skill 包之外，不会在 Skill 触发时占用运行上下文。
 
 ## 安装
 
@@ -69,4 +68,3 @@ Skill 将用户上传并要求修改视为当前编辑授权，只向图像生�
 ## 当前状态
 
 这是一个持续通过真实照片测试和迭代的实验性 Skill，重点评估创作可见性、主体保持、区域层级、艺术融合、审美修复与运行效率。
-
